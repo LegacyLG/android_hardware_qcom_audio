@@ -1,6 +1,6 @@
 ifeq ($(call my-dir),$(call project-path-for,qcom-audio))
 
-ifneq ($(filter msm7x30,$(TARGET_BOARD_PLATFORM)),)
+ifneq ($(filter msm7x27a,$(TARGET_BOARD_PLATFORM)),)
 
 MY_LOCAL_PATH := $(call my-dir)
 
